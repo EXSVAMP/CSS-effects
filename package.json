@@ -1,0 +1,21 @@
+{
+  "name": "css",
+  "version": "0.0.1",
+  "description": "CSS practice",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "CSS"
+  ],
+  "author": "geo",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1"
+  }
+}

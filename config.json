@@ -1,0 +1,14 @@
+{
+	"root": "./",
+	"css": {
+		"css": "/css/*.css",
+		"less": "/less/*.less",
+		"sass": "/sass/*.scss",
+		"dest": "/assets/css"
+	},
+	"js": {
+		"src": "/js/*/*.js",
+		"dest": "/assets/js"
+	},
+	"html": "/**/*.html"
+}

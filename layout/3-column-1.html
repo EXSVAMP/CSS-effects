@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三栏布局</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.info {
+			font-family: SimHei, "Microsoft YaHei", SimSun, serif;
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 200px;
+			color: #333333;
+		}
+		.container {
+			overflow: hidden;
+		}
+
+		.left {
+			float: left;
+			width: 200px;
+			height: 400px;
+			background-color: #CCFFFF;
+		}
+
+		.main {
+			overflow: hidden;
+			text-align: center;
+			height: 600px;
+			background-color: #CCCCFF;
+		}
+
+		.right {
+			float: right;
+			width: 200px;
+			height: 400px;
+			background-color: #FFCCCC;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="left"></div>
+		<div class="right"></div>
+		<div class="main">
+			<span class="info">利用 BFC 特性实现的三列布局</span>
+		</div>
+	</div>
+</body>
+</html>

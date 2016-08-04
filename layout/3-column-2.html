@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三栏布局2</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.info {
+			font-family: SimHei, "Microsoft YaHei", SimSun, serif;
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 200px;
+			color: #333333;
+		}
+		
+		.left {
+			float: left;
+			margin-left: -100%;
+			width: 200px;
+			height: 400px;
+			background-color: #CCFFFF;
+		}
+
+		.main {
+			float: left;
+			margin: 0 200px;
+			text-align: center;
+			height: 600px;
+			background-color: #CCCCFF;
+		}
+
+		.maincontent {
+			margin: 0 15px;
+			padding: 10px;
+		}
+
+		.right {
+			float: left;
+			margin-left: -200px;
+			width: 200px;
+			height: 400px;
+			background-color: #FFCCCC;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="main">
+			<div class="maincontent">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, labore in quis odit incidunt amet aperiam, molestiae minima, sit quas veritatis quos expedita animi obcaecati ut veniam perferendis architecto eius.
+			</div>
+			<span class="info">淘宝双飞翼布局</span>
+		</div>
+		<div class="left">left</div>
+		<div class="right">right</div>
+	</div>
+</body>
+</html>

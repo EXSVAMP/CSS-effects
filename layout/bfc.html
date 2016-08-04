@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BFC</title>
+	<style>
+		.container {
+			/*display: block;*/
+			overflow: hidden;
+			/*float: left;*/
+			/*width: 300px;*/
+			border: 2px solid;
+		}
+
+		.box {
+			/*overflow: hidden;*/
+			/*float: left;*/
+			/*margin-top: 250px;*/
+			margin: 10px;
+			height: 100px;
+			width: 100px;
+		}
+
+		#red {
+			background-color: #FF6666;
+		}
+
+		#green {
+			background-color: #009966;
+		}
+
+		#blue {
+			background-color: #99CCFF;
+		}
+
+		#yellow {
+			background-color: #FFFF33;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div style="overflow: hidden;"><div id="red" class="box"></div></div>
+		<div style="overflow: hidden;"><div id="green" class="box"></div></div>
+	</div>
+	<div class="container">
+		<div id="blue" class="box"></div>
+		<div id="yellow" class="box"></div>
+	</div>
+	<p>text</p>
+</body>
+</html>

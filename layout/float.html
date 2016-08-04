@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>float</title>
+	<style>
+		.left-col {
+			float: left;
+			margin-top: 10px;
+			margin-left: 10px;
+			width: 100px;
+			height: 150px;
+			background-color: #66CCCC;
+		}
+
+		.right-col {
+			/*margin-left: 100px;*/
+			/*overflow: auto;*/
+			width: 200px;
+			height: 100px;
+			background-color: #CC99CC;
+		}
+
+		span {
+			background-color: #FFFF33;
+			margin-left: -50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="left-col"></div>
+	<div class="right-col">紧跟在 float 元素后面的非浮动元素，除了行内元素不会被覆盖，其他都会被覆盖</div>
+	<span>行内元素如果由于布局原因移动到浮动元素上面，会把浮动元素覆盖</span>
+</body>
+</html>
