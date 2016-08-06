@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>盒模型宽度</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.info {
+			font-family: SimHei, "Microsoft YaHei", SimSun, serif;
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 50px;
+			color: #333333;
+		}
+
+		.container {
+			width: 800px;
+			border: 1px solid;
+		}
+
+		.contentBox {
+			box-sizing: content-box;
+			padding: 50px;
+			width: 100%;
+			height: 200px;
+			border: 5px solid #009999;
+			background-color: #FFCCCC;
+			opacity: 0.5;
+		}
+
+		.contentBox2 {
+			box-sizing: content-box;
+			padding: 50px;
+			margin-top: 20px;
+			border: 5px solid #009999;
+			background-color: #FFCCCC;
+		}
+
+		.borderBox {
+			box-sizing: border-box;
+			padding: 50px;
+			margin-top: 20px;
+			width: 100%;
+			height: 200px;
+			border: 5px solid #009999;
+			background-color: #CCFFCC;
+		}
+
+		.subBox {
+			width: 100%;
+			height: 50px;
+			text-align: center;
+			background-color: #CCCCFF;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="contentBox">
+			<div class="subBox">
+				<span class="info">ContentBox</span>
+			</div>
+		</div>
+
+		<div class="borderBox">
+			<div class="subBox">
+				<span class="info">BorderBox</span>
+			</div>
+		</div>
+
+		<div class="contentBox2">
+			<div class="subBox">
+				<span class="info">ContentBox2 未指定宽高</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
