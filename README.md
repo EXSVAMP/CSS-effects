@@ -16,3 +16,6 @@
         - [源码](position/center.html)
     + [Flex Box 实现窗口居中](http://htmlpreview.github.io/?https://github.com/gaoupon/CSS-Tasks/blob/master/position/flexcenter.html)
         - [源码](position/flexcenter.html)
+* CSS 盒模型
+    + [box-sizing 对元素宽度的影响](http://htmlpreview.github.io/?https://github.com/gaoupon/CSS-Tasks/blob/master/boxmodel/width.html)
+        - [源码](boxmodel/width.html)
