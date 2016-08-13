@@ -19,3 +19,13 @@
 * CSS 盒模型
     + [box-sizing 对元素宽度的影响](http://htmlpreview.github.io/?https://github.com/gaoupon/CSS-Tasks/blob/master/boxmodel/width.html)
         - [源码](boxmodel/width.html)
+
+* CSS3 背景
+    + [background-size](http://htmlpreview.github.io/?https://github.com/gaoupon/CSS-Tasks/blob/master/background/background-size.html)
+        - [源码](background/background-size.html)
+    + [background-origin](http://htmlpreview.github.io/?https://github.com/gaoupon/CSS-Tasks/blob/master/background/background-origin.html)
+        - [源码](background/background-origin.html)
+    + [background-clip](http://htmlpreview.github.io/?https://github.com/gaoupon/CSS-Tasks/blob/master/background/background-clip.html)
+        - [源码](background/background-clip.html)
+    + [background](http://htmlpreview.github.io/?https://github.com/gaoupon/CSS-Tasks/blob/master/background/background.html)
+        - [源码](background/background.html)
