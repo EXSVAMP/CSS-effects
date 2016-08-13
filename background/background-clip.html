@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>background-origin</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+		}
+
+		.info {
+			font: 700 18px "Microsoft YaHei", serif;
+			color: #336666;
+		}
+
+		.background-clip-border {
+		    border: 10px dotted #CCCCFF;
+		    padding: 25px;
+		    background-image: url("../image/mail.png");
+		    background-repeat: no-repeat;
+		    background-position: left;
+		    background-clip: border-box;
+		    background-color: #FFFF33;
+		}
+
+		.background-clip-padding {
+			margin-top: 50px;
+		    border: 10px dotted #CCCCFF;
+		    padding: 25px;
+		    background-image: url("../image/mail.png");
+		    background-repeat: no-repeat;
+		    background-position: left;
+		    background-clip: padding-box;
+		    background-color: #FFFF33;
+		}
+
+		.background-clip-content {
+			margin-top: 50px;
+		    border: 10px dotted #CCCCFF;
+		    padding: 25px;
+		    background-image: url("../image/mail.png");
+		    background-repeat: no-repeat;
+		    background-position: left;
+		    background-clip: content-box;
+		    background-color: #FFFF33;
+		}
+	</style>
+</head>
+<body>
+	<div class="background-clip-border">
+		<div>
+						<pre  class="info">
+												样式：
+													.background-clip-border {
+													    border: 10px dotted #CCCCFF;
+													    padding: 25px;
+													    background-image: url("../image/mail.png");
+													    background-repeat: no-repeat;
+													    background-position: left;
+													    background-clip: border-box;
+													    background-color: #FFFF33;
+													}
+			</pre>
+		</div>
+	</div>
+
+	<div class="background-clip-padding">
+		<div>
+						<pre  class="info">
+												样式：
+													.background-clip-padding {
+														margin-top: 50px;
+													    border: 10px dotted #CCCCFF;
+													    padding: 25px;
+													    background-image: url("../image/mail.png");
+													    background-repeat: no-repeat;
+													    background-position: left;
+													    background-clip: padding-box;
+													    background-color: #FFFF33;
+													}
+			</pre>
+		</div>
+	</div>
+
+	<div class="background-clip-content">
+		<div>
+			<pre  class="info">
+												样式：
+													.background-clip-content {
+														margin-top: 50px;
+													    border: 10px dotted #CCCCFF;
+													    padding: 25px;
+													    background-image: url("../image/mail.png");
+													    background-repeat: no-repeat;
+													    background-position: left;
+													    background-clip: content-box;
+													    background-color: #FFFF33;
+													}
+			</pre>
+		</div>
+	</div>
+</body>
+</html>

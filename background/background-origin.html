@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>background-origin</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+		}
+
+		.info {
+			font: 700 18px "Microsoft YaHei", serif;
+			color: #336666;
+		}
+
+		.background-origin-border {
+		    border: 10px dotted #CCCCFF;
+		    padding: 25px;
+		    background-image: url("../image/mail.png");
+		    background-repeat: no-repeat;
+		    background-position: left;
+		    background-origin: border-box;
+		    background-color: #FFFF33;
+		}
+
+		.background-origin-padding {
+			margin-top: 50px;
+		    border: 10px dotted #CCCCFF;
+		    padding: 25px;
+		    background-image: url("../image/mail.png");
+		    background-repeat: no-repeat;
+		    background-position: left;
+		    background-origin: padding-box;
+		    background-color: #FFFF33;
+		}
+
+		.background-origin-content {
+			margin-top: 50px;
+		    border: 10px dotted #CCCCFF;
+		    padding: 25px;
+		    background-image: url("../image/mail.png");
+		    background-repeat: no-repeat;
+		    background-position: left;
+		    background-origin: content-box;
+		    background-color: #FFFF33;
+		}
+	</style>
+</head>
+<body>
+	<div class="background-origin-border">
+		<div>
+						<pre  class="info">
+												样式：
+													.background-origin-border {
+													    border: 10px dotted #CCCCFF;
+													    padding: 25px;
+													    background-image: url("../image/mail.png");
+													    background-repeat: no-repeat;
+													    background-position: left;
+													    background-origin: border-box;
+													    background-color: #FFFF33;
+													}
+			</pre>
+		</div>
+	</div>
+
+	<div class="background-origin-padding">
+		<div>
+						<pre  class="info">
+												样式：
+													.background-origin-padding {
+														margin-top: 50px;
+													    border: 10px dotted #CCCCFF;
+													    padding: 25px;
+													    background-image: url("../image/mail.png");
+													    background-repeat: no-repeat;
+													    background-position: left;
+													    background-origin: padding-box;
+													    background-color: #FFFF33;
+													}
+			</pre>
+		</div>
+	</div>
+
+	<div class="background-origin-content">
+		<div>
+			<pre  class="info">
+												样式：
+													.background-origin-content {
+														margin-top: 50px;
+													    border: 10px dotted #CCCCFF;
+													    padding: 25px;
+													    background-image: url("../image/mail.png");
+													    background-repeat: no-repeat;
+													    background-position: left;
+													    background-origin: content-box;
+													    background-color: #FFFF33;
+													}
+			</pre>
+		</div>
+	</div>
+</body>
+</html>
