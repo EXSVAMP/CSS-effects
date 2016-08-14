@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Transform</title>
+	<style>
+		div[class ^= "container"] {
+			margin: 50px auto;
+			padding: 25px;
+			height: 100px;
+			width: 200px;
+			background-color: #6666CC;
+		}
+
+		.info {
+			font: 700 16px "Microsoft YaHei", serif;
+			color: #FFCCCC;
+		}
+
+		.container-translate {
+			-webkit-transform: translate(10px, 20px);
+			-ms-transform: translate(10px, 20px);
+			-o-transform: translate(10px, 20px);
+			transform: translate(10px, 20px);
+		}
+
+		.container-rotate {
+			-webkit-transform: rotate(10deg);
+			-ms-transform: rotate(10deg);
+			-o-transform: rotate(10deg);
+			transform: rotate(10deg);
+		}
+
+		.container-rotate-origin {
+			-webkit-transform-origin: 0% 50%;
+			-moz-transform-origin: 0% 50%;
+			-ms-transform-origin: 0% 50%;
+			-o-transform-origin: 0% 50%;
+			transform-origin: 0% 50%;
+
+			-webkit-transform: rotate(10deg);
+			-ms-transform: rotate(10deg);
+			-o-transform: rotate(10deg);
+			transform: rotate(10deg);
+		}
+
+		.container-scale {
+			-webkit-transform: scale(1.5, 0.5);
+			-ms-transform: scale(1.5, 0.5);
+			-o-transform: scale(1.5, 0.5);
+			transform: scale(1.5, 0.5);
+		}
+
+		.container-skew {
+			-webkit-transform: skew(30deg, 15deg);
+			-ms-transform: skew(30deg, 15deg);
+			-o-transform: skew(30deg, 15deg);
+			transform: skew(30deg, 15deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="container"></div>
+
+	<div class="container-translate">
+		<span class="info">translate(10px, 20px));</span>
+	</div>
+	
+	<div class="container-rotate">
+		<span class="info">rotate(10deg);</span>
+	</div>
+
+	<div class="container-rotate-origin">
+		<span class="info">rotate(10deg); transform-origin: 20% 40%;</span>
+	</div>
+
+	<div class="container-scale">
+		<span class="info">scale(1.5, 0.5);</span>
+	</div>
+
+	<div class="container-skew">
+		<span class="info">skew(30deg, 15deg)</span>
+	</div>
+</body>
+</html>
