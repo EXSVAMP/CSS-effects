@@ -33,3 +33,7 @@
 * CSS3 边框
     + [多种边框样式](http://htmlpreview.github.io/?https://github.com/gaoupon/CSS-Tasks/blob/master/border/border.html)
         - [源码](border/border.html)
+
+* CSS3 过渡效果
+    + [多种边框样式](http://htmlpreview.github.io/?https://github.com/gaoupon/CSS-Tasks/blob/master/transition/transition.html)
+        - [源码](transition/transition.html)

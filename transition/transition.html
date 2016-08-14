@@ -4,6 +4,35 @@
 	<meta charset="UTF-8">
 	<title>Transition</title>
 	<style>
+		.info {
+			font: 700 16px "Microsoft YaHei", serif;
+			color: #333333;
+		}
+
+		.container {
+			margin: 50px auto;
+			padding: 25px;
+			height: 300px;
+			width: 600px;
+			text-align: center;
+			border-radius: 20px;
+			box-shadow: 5px 3px 50px #333333;
+			background-color: #6666CC;
+			transition-property: box-shadow, width;
+			transition-delay: 2s, 0s;
+			transition-duration: 1s, 2s;
+			transition-timing-function: ease, cubic-bezier(0.42,0,0.58,1);
+		}
+
+		.container:hover {
+			width: 300px;
+			box-shadow: 20px 10px 50px #333333;
+		}
+	</style>
+</head>
+<body>
+	<div class="container"></div>
+	<pre class="info">
 		.container {
 			margin: 50px auto;
 			padding: 25px;
@@ -22,11 +51,6 @@
 			width: 300px;
 			box-shadow: 20px 10px 50px #333333;
 		}
-	</style>
-</head>
-<body>
-	<div class="container">
-		
-	</div>
+	</pre>
 </body>
 </html>
