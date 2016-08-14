@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Transition</title>
+	<style>
+		.container {
+			margin: 50px auto;
+			padding: 25px;
+			height: 300px;
+			width: 600px;
+			border-radius: 20px;
+			box-shadow: 5px 3px 50px #333333;
+			background-color: #6666CC;
+			transition-property: box-shadow, width;
+			transition-delay: 2s, 0s;
+			transition-duration: 1s, 2s;
+			transition-timing-function: ease, cubic-bezier(0.42,0,0.58,1);
+		}
+
+		.container:hover {
+			width: 300px;
+			box-shadow: 20px 10px 50px #333333;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		
+	</div>
+</body>
+</html>
