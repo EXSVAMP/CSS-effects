@@ -35,5 +35,5 @@
         - [源码](border/border.html)
 
 * CSS3 过渡效果
-    + [多种边框样式](http://htmlpreview.github.io/?https://github.com/gaoupon/CSS-Tasks/blob/master/transition/transition.html)
+    + [过渡效果的实现](http://htmlpreview.github.io/?https://github.com/gaoupon/CSS-Tasks/blob/master/transition/transition.html)
         - [源码](transition/transition.html)
