@@ -1,7 +1,3 @@
-## 一些简单CSS 实现
-
-包括：
-
 * 三栏布局的多种实现方式
     + [利用 BFC 特性实现的三列布局](http://htmlpreview.github.io/?https://github.com/gaoupon/CSS-Tasks/blob/master/layout/3-column-1.html)
         - [源码](layout/3-column-1.html)
